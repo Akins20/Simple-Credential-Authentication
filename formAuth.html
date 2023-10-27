@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Form Authentication</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Sign up Form</h2>
+      <form id="signUp_Form" method="POST">
+        <input
+          type="text"
+          placeholder="Enter your username..."
+          name="signUp_username"
+          id="signUp_username"
+        /><br />
+        <input
+          type="email"
+          placeholder="Enter your E-mail..."
+          name="signUp_email"
+          id="signUp_email"
+        /><br />
+        <input
+          type="password"
+          placeholder="Enter your password..."
+          name="signUp_password"
+          id="signUp_password"
+        /><br />
+        <button type="button" onclick="signUp()">Sign Up</button>
+      </form>
+    </div>
+    <div class="container">
+      <h2>Sign in Form</h2>
+      <form id="signIn_Form" method="POST">
+        <input
+          type="text"
+          placeholder="Enter your username..."
+          name="signIn_username"
+          id="signIn_username"
+        /><br />
+        <input
+          type="password"
+          placeholder="Enter your password..."
+          name="signIn_password"
+          id="signIn_password"
+        /><br />
+        <button type="button" onclick="signIn()">Sign in</button>
+      </form>
+    </div>
+  </body>
+</html>
